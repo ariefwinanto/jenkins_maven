@@ -10,7 +10,7 @@ pipeline {
         
         stage('Code Checkout'){
             steps {
-                 git branch: 'main', url: 'https://github.com/ariefwinanto/jenkins-maven'
+                 git branch: 'main', url: 'https://github.com/ariefwinanto/jenkins_maven'
 
             }
         }
